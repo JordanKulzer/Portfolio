@@ -1,0 +1,211 @@
+h1 {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 3rem;
+}
+h2, h3 {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+/* heading */
+#title {
+    margin-bottom: 0rem;
+
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#main-title {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: rgb(247, 247, 247);
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    height: 75px;
+}
+
+.navbar-brand {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 23rem;
+
+    color: rgba(255, 255, 255, 0.)
+}
+
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px 10px 12rem;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;}
+
+/* Profile pic/icons */
+
+.profile {
+    text-align: center;
+    padding: 5rem 0 0 10rem;
+}
+
+.prof-pic {
+    width: 70%;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}
+
+.network-icons {
+    padding: 7% 15%;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.big-icon {
+    color: rgb(100, 63, 38);
+}
+
+/* Biography */
+.cont-about {
+    margin-left: -20px;
+    width: 100%;
+
+}
+
+.s {
+    margin-left: -20px;
+
+}
+
+.bio {
+    padding-top: 5rem;
+    margin-left: -20px;
+}
+
+.page-header {}
+
+.edu-description {
+    margin-top: -20px;
+    font-size: 13px;
+    color: rgb(116, 116, 116)
+}
+
+/* Skills */
+.cont-skills {
+    background-color: rgb(198, 225, 243);
+    text-align: center;
+    margin-top: 3rem;
+    padding: 3rem 0 3rem;
+}
+
+.container {}
+
+.section-heading {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.skill-img {
+    color: rgb(100, 63, 38);
+}
+
+.skill-list {
+    margin: 1rem 0 3rem;
+}
+
+.fa-python {
+    color: rgb(100, 63, 38);
+    font-size: 44px;
+}
+
+/*blog*/
+.blog {
+    padding: 4rem;
+}
+
+.col, .m-2, .h-50, .badge {
+    color:rgb(100, 63, 38);
+    border-color: rgb(100, 63, 38);
+}
+a {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(63, 39, 23);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.article-metadata {
+    color: rgb(100, 63, 38);
+    padding-top: 0.75rem;
+}
+
+.stream-item {
+    padding: 0.5rem 0 4rem;
+}
+
+.card {
+    margin: 1rem 0 1rem 0;
+    border-color: rgb(100, 63, 38);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(100, 63, 38)!important;
+}
+/*Contact*/
+.contact-container {
+    background-color: rgb(198, 225, 243);
+    padding: 7rem 0 0rem 10rem;
+}
+
+.btn {
+    color: rgb(63, 39, 23);
+    border-color: rgb(100, 63, 38);
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.open .dropdown-toggle.btn {
+    background-color: rgb(63, 39, 23);
+    color: #FFF;
+    border-color: rgb(100, 63, 38);
+
+}
+
+
+input[type="text"]:focus, textarea:focus {   
+  border-color: rgb(100, 63, 38);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(100, 63, 38)!important;
+  outline: 0 none;
+}
+
+/*footer*/
+.foot {
+    text-align: left;
+    font-size: 3rem;
+    margin-left: -8rem;
+}
