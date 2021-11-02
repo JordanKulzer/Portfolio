@@ -5,6 +5,10 @@ h1 {
 h2, h3 {
     font-family: 'Zen Kaku Gothic New', sans-serif;
 }
+
+p, li {
+    font-family: 'Zen Old Mincho', serif;
+}
 /* heading */
 #title {
     margin-bottom: 0rem;
@@ -37,14 +41,13 @@ h2, h3 {
     font-weight: bold;
     padding-right: 23rem;
 
-    color: rgba(255, 255, 255, 0.)
 }
 
 .navbar a {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px 10px 12rem;
+    padding: 14px 16px 10px 20rem;
     text-decoration: none;
 }
 
