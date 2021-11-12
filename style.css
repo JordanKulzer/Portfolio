@@ -1,11 +1,13 @@
 h1 {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 3rem;
-}
-h2, h3 {
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-}
+    color: rgb(100, 63, 38);
 
+}
+h2, h3, h4, h5 {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: rgb(100, 63, 38);
+}
 p, li {
     font-family: 'Zen Old Mincho', serif;
 }
@@ -142,40 +144,24 @@ p, li {
     font-size: 44px;
 }
 
-/*blog*/
+/*Journey*/
+span:after,
+span:before {
+    content: "\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+}
+.journey_sect {
+}
 .blog {
     padding: 4rem;
 }
 
-.col, .m-2, .h-50, .badge {
-    color:rgb(100, 63, 38);
-    border-color: rgb(100, 63, 38);
-}
-a {
-    color: rgb(0, 0, 0);
-}
 
-a:hover {
-    color: rgb(63, 39, 23);
-}
-
-a:visited {
-    color: rgb(0, 0, 0);
-}
-
-.article-metadata {
-    color: rgb(100, 63, 38);
-    padding-top: 0.75rem;
-}
-
-.stream-item {
-    padding: 0.5rem 0 4rem;
-}
-
-.card {
-    margin: 1rem 0 1rem 0;
-    border-color: rgb(100, 63, 38);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(100, 63, 38)!important;
+.virg-img {
+    margin-left: 6rem;
+    border: 3px solid rgb(100, 63, 38);
+    border-radius: 10px;
+    margin-top: 2rem;
 }
 /*Contact*/
 .contact-container {
