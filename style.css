@@ -1,7 +1,6 @@
 h1 {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-size: 3rem;
-    color: rgb(100, 63, 38);
 
 }
 h2, h3, h4, h5 {
@@ -90,7 +89,9 @@ p, li {
 .big-icon {
     color: rgb(100, 63, 38);
 }
-
+.name {
+    color: black;
+}
 /* Biography */
 .cont-about {
     margin-left: -20px;
@@ -115,7 +116,9 @@ p, li {
     font-size: 13px;
     color: rgb(116, 116, 116)
 }
-
+.rel-courses {
+    padding-left: 1.9rem;
+}
 /* Skills */
 .cont-skills {
     background-color: rgb(198, 225, 243);
@@ -143,7 +146,9 @@ p, li {
     color: rgb(100, 63, 38);
     font-size: 44px;
 }
-
+.skill-name {
+    color: black;
+}
 /*Journey*/
 span:after,
 span:before {
